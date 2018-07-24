@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LuckyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <CheckBox
+        android:id="@+id/happyCb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="¿Estás feliz?"/>
+
+    <CheckBox
+        android:id="@+id/moodCb"
+        android:button="@drawable/cb_mood_bg"
+        android:enabled="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/happyCb"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
